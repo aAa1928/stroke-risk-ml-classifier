@@ -2,7 +2,8 @@
 
 A PyTorch model for determining stroke risk, based on established risk factors documented in leading medical textbooks, research papers, and guidelines from health organizations. The model achieves an impressive 99.96% accuracy on test data.
 
-[Dataset link](https://www.kaggle.com/datasets/mahatiratusher/stroke-risk-prediction-dataset/)
+[Download the model here](stroke_risk_classifier_model.pth)
+[Kaggle Dataset link](https://www.kaggle.com/datasets/mahatiratusher/stroke-risk-prediction-dataset/)
 
 ## Overview
 
