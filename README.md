@@ -12,24 +12,28 @@ This project uses PyTorch to build a neural network classifier for stroke risk p
 
 ## Dataset
 
-The dataset includes 16 health indicators:
+The dataset uses 16 health indicators:
 
-1. Age
-2. Gender
-3. Hypertension
-4. Heart Disease
-5. Ever Married
-6. Work Type
-7. Residence Type
-8. Average Glucose Level
-9. BMI
-10. Smoking Status
-11. Family History
-12. Physical Activity
-13. Diet (Balanced)
-14. Alcohol Consumption
-15. Previous Stroke
-16. Blood Pressure Category
+1. Chest Pain (binary)
+2. Shortness of Breath (binary)
+3. Irregular Heartbat (binary)
+4. Fatigue & Weakness (binary)
+5. Dizziness (binary)
+6. Swelling (Edema) (binary)
+7. Pain in Neck/Jaw/Shoulder/Back (binary)
+8. Excessive Sweating	(binary)
+9. Persistent Cough	(binary)
+10. Nausea/Vomiting	(binary)
+11. High Blood Pressure	(binary)
+12. Chest Discomfort (Activity)	(binary)
+13. Cold Hands/Feet (binary)	
+14. Snoring/Sleep Apnea	(binary)
+15. Anxiety/Feeling of Doom	(binary)
+16. Age (integer)
+
+To calculate:
+
+1. Stroke Risk (high or low risk) (binary)
 
 ## Requirements
 
