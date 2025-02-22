@@ -4,8 +4,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 import torch
 import torch.nn as nn
-import torch.optim as optim
 import torch.nn.functional as F
+import torch.optim as optim
 
 class Model(nn.Module):
     def __init__(self, in_features=16, h1=64, h2=28, out_features=2):
